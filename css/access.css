@@ -1,0 +1,246 @@
+body{ font-family: Arial, Helvetica, sans-serif
+    font-size 100px;
+    line-height: 1.5;
+padding: 0;
+margin: 0;
+background-color: ghostwhite;
+text-align: center;
+ }
+
+/*Global-(can be put anywhere)*/
+.logo{
+    width: 100px;
+    padding: 0 20px 0 20px
+}
+
+.container{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+
+header ul{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+/*Header**/
+header{
+    background:white;
+    color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 90px;
+    padding-right: 90px;
+    min-height: 70px;
+    border-bottom:black;
+}
+
+header a{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+
+
+header li {
+    
+    display: inline;
+    padding: 0 20px 0 20px;
+    
+    
+}
+
+header #branding{
+    float: center;
+}
+
+header #branding h1{
+    margin: 0;
+    float: none;
+}
+
+header nav{
+    float: center;
+    margin-top: 10px;
+}
+
+  header a:hover{
+      color:red; 
+      font-weight: bold;
+}
+
+/* showcase */
+
+#showcase{
+    min-height: 400px;
+    background:url('../images/underground.jpg') no-repeat 0 -600px;
+    background-attachment: fixed;
+    background-position: center;
+    text-align: center;
+    color: black;
+}
+
+#showcase h1{
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+#showcase p{
+    font-size: 20px;
+}
+/*newsletter*/
+#newsletter{ 
+    padding:15px;
+    color: black;
+    background: white;
+}
+
+#newsletter h1{ 
+  float: center; 
+  font-size: 20px; 
+    
+}
+
+#newsletter form 
+    
+ 
+
+#newsletter input[type= "email"]{
+    padding:4px;
+    height: 25px;
+    width: 250px;
+}
+/*social*/
+
+
+.media {
+    float: right;
+  
+    
+   
+}
+#social li{
+    list-style: none;
+    margin: 10px 30px;
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px 20px;
+    color: black;
+    border: 1px solid black;
+    border-radius: 50%;
+    transition: .5s;
+
+    
+}
+
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    color: black;
+    text-align: center;
+}
+
+/*home page */
+#homepara {
+    background:white;
+    color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 90px;
+    padding-right: 90px;
+    min-height: 70px;
+}
+
+
+/*travel page */
+.travelbox { 
+    background-color: rgb(217, 217, 241);
+    border: solid rgb(35, 39, 54) 2px;
+    margin: 45px;
+    padding: 40px;
+
+}
+#travelform {
+    text-align: center;
+}
+
+/*Forum */
+
+/* Button used to open the chat form - fixed at the bottom of the page */
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+
+/* The popup chat - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width textarea */
+.form-container textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  resize: none;
+  min-height: 200px;
+}
+
+/* When the textarea gets focus, do something */
+.form-container textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
